@@ -1,0 +1,51 @@
+.page-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color:#bdd5ea;
+}
+.page-container > .background{
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.page-container > .background > .Castle{
+    position: absolute;
+    background-size: 70%;
+    height: 70%;
+    width: 70%;
+    background-repeat: no-repeat;
+    filter: brightness(70%);
+}
+.page-container > .Goal{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 30%;
+    padding-left: 30%;
+    padding-right:30%;
+}
+.page-container > .Goal > .coin-logo{
+    display: flex;
+    justify-content: center;
+}
+.page-container > .Goal > .coin-logo img{
+    height: 100%;
+    width: 100%;
+}
+.page-container > .mission-statement{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 30%;
+    padding-right: 30%;
+    padding-top:5%;
+}
+.page-container > .Home-images > .hero-image{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 5%;
+    padding-left:30%;
+    padding-right:30%;
+}

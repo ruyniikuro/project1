@@ -1,0 +1,58 @@
+body {
+    background: #77aca2
+}
+
+header {
+    background: #031926
+}
+
+footer {
+    background: #577399
+}
+
+header a:hover {
+    color: #bdd5ea
+}
+
+h2, h3, h4, h5 {
+    font-family: 'ZCOOL XiaoWei', serif;
+}
+
+h1 {
+    font-size: 2.5em;
+}
+
+h2 {
+    font-size: 1.8em;
+    text-decoration: underline
+}
+
+h3 {
+    font-size: 1.5em;
+    /* color: #9dbebb */
+}
+
+h4 {
+    font-size: 1em; 
+}
+
+a:visited {
+    color: black;
+}
+
+.news-content-wrapper > .roadmap-wrapper > .year-links {
+    display: flex;
+    justify-content: space-around;
+}
+
+.news-content-wrapper > .roadmap-wrapper ul {
+    position: relative;
+    list-style: none;
+    margin-left: 0;
+    padding-left: 1.2em;
+}
+.news-content-wrapper > .roadmap-wrapper ul li:before {
+    content: "+";
+    position: absolute;
+    left: 0;
+}

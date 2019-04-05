@@ -6,16 +6,7 @@ body {
     font-family: 'ZCOOL XiaoWei', serif;
   }
   
-  .header-wrapper {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 200px;
-    width: 100vw;
-    background-color: #031926;
-    color: white; 
-  }
-  
+
   .content-headers {
     width: 90vw;
     height: auto;
@@ -72,12 +63,3 @@ body {
     background-color: #bdd5ea; 
   }
   
-  .footer-wrapper {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 200px;
-    width: 100vw;
-    background-color: #031926;
-    color: white;
-  }

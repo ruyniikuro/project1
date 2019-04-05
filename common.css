@@ -1,4 +1,4 @@
-.container {
+.page-container .container {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -6,21 +6,33 @@
 
 }
 
-.content-wrapper {
+.page-container .content-wrapper {
     width: 500px;
     font-family: 'ZCOOL XiaoWei', serif;
 }
 
-.icon-wrapper-one {
+.page-container .icon-wrapper-one {
     display: flex;
     justify-content: flex-start;
 }
-.icon-wrapper-two {
+.page-container .icon-wrapper-two {
     display: flex;
     justify-content: flex-end;
 }
-.header {
+.page-container .header {
     
     display: flex;
     justify-content:center
+}
+
+.icon-wrapper-one img{
+    height: 100px;
+    width: 100px;
+}
+.icon-wrapper-two img{
+    height: 100px;
+    width: 100px;
+}
+.container .content-wrapper .indent {
+    text-indent: 40px;
 }
